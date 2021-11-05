@@ -14,10 +14,6 @@ int factorial(int x)
 }
 
 int isPrime(int x){
-    if(x==1)
-    {
-        return 0;
-    }
     int i=2;
     while(i<x)
     {

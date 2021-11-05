@@ -11,6 +11,13 @@ int numberOfDigit(int x){
     return counter;
 }
 
+int reverseNumber(int num) {
+    if (num == 0) {
+        return 0;
+    }
+    return (num%10)*10 +reverseNumber(num/10);
+}
+
 int isPalindrome(int x)
 {
     int n=numberOfDigit(x);
